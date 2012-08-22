@@ -110,7 +110,6 @@ select { max-width:15em; }
   box-sizing: border-box;
   color: rgb(255, 255, 255);
   cursor: pointer;
-  display: block;
   float: right;
   font-family: Arial, sans-serif;
   font-size: 13px;
@@ -175,7 +174,6 @@ box-shadow: rgb(238, 238, 238) 0px 1px 0px 0px inset, rgb(255, 255, 255) 0px 1px
 box-sizing: border-box;
 color: rgb(0, 0, 0);
 cursor: auto;
-display: block;
 font-family: Arial, sans-serif;
 font-size: 13px;
 font-weight: normal;
@@ -238,7 +236,6 @@ box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 3px 0px inset, rgba(82, 168, 236, 0.
 box-sizing: border-box;
 color: rgb(51, 51, 51);
 cursor: auto;
-display: block;
 font-family: Arial, sans-serif;
 font-size: 13px;
 font-weight: normal;
