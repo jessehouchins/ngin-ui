@@ -7,6 +7,6 @@
 
 
 <h1>Ngin UI</h1>
-<blockquote>This will house a collection of ui widgets designed to make form data entry more intuitive and efficient.</blockquote>
-<hr>
+<p>This will house a collection of ui widgets designed to make form data entry more intuitive and efficient.</p>
+
 <iframe src="" style="border:0;width:100%;height:500px"></iframe>
