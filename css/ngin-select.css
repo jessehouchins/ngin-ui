@@ -1,0 +1,54 @@
+  /*/ Ngin Select /*/
+
+  .NginSelect { display:inline-block; position:relative; z-index:1; }
+  .NginSelect input {
+    position:absolute;
+    top:0;
+    left:0;
+    right:15px;
+    bottom:0;
+    line-height: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index:1;
+  }
+  .NginSelect input.NS-preview {
+    z-index:3;
+    color:rgba(0,0,0,.4) !important;
+    border-color:transparent !important;
+    background:none !important;
+    outline:none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .NginSelect .NS-copy {
+    position:absolute;
+    z-index:-1;
+    top:0;
+    left:-999999px;
+    right:99999px;
+    bottom:0;
+  }
+  .NginSelect .NS-copy span { color:red; }
+  .NginSelect .NS-handle {
+    display: block;
+    text-align:center;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:20px;
+    z-index:-1;
+    padding:0;
+    line-height:0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left:none;
+  }
+  .NginSelect select {
+    opacity:0;
+    -webkit-appearance: menulist-button;
+    border:none;
+  }
