@@ -110,7 +110,6 @@ select { max-width:15em; }
   box-sizing: border-box;
   color: rgb(255, 255, 255);
   cursor: pointer;
-  float: right;
   font-family: Arial, sans-serif;
   font-size: 13px;
   font-weight: bold;
