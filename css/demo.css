@@ -20,17 +20,17 @@ dd { float:left; margin:.3em; }
 
 
 /*/ Form Elements /*/
-input {
+.demo input {
   border:1px solid #999;
   padding:3px;
   box-shadow: inset 1px 1px 10px rgba(0,0,0,.1);
 }
-input:focus {
+.demo input:focus {
   border-color:#69C;
   outline:none;
   box-shadow: inset 1px 1px 10px rgba(0,102,153,.3);
 }
-button {
+.demo button {
   border-radius:4px;
   color:#369;
   border:1px solid #69C;
@@ -43,3 +43,28 @@ button {
   background-image: linear-gradient(to bottom,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%);
 }
 select { max-width:15em; }
+
+
+
+/*/ Facebook /*/
+
+.facebook button {
+  background-image: url(http://static.ak.fbcdn.net/rsrc.php/v2/ym/r/NRGEePMfwP2.png);
+  background-repeat: no-repeat;
+  background-position: -352px -54px;
+  background-color: #eee;
+  border: 1px solid #999;
+  border-bottom-color: #888;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 13px;
+  padding: 2px 6px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+}
+}
