@@ -146,7 +146,6 @@ select { max-width:15em; }
 -webkit-border-vertical-spacing: 0px;
 -webkit-box-shadow: rgb(238, 238, 238) 0px 1px 0px 0px inset, rgb(255, 255, 255) 0px 1px 0px 0px;
 -webkit-rtl-ordering: logical;
--webkit-text-security: disc;
 -webkit-transition-delay: 0s;
 -webkit-transition-duration: 0.20000000298023224s;
 -webkit-transition-property: background;
