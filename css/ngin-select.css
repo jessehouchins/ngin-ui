@@ -3,17 +3,17 @@
   .NginSelect { display:inline-block; position:relative; z-index:1; }
   .NginSelect input {
     position:absolute;
-    top:0;
-    left:0;
-    right:15px;
-    bottom:0;
-    line-height: inherit;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    z-index:1;
+    top:0 !important;
+    left:0 !important;
+    right:15px !important;
+    bottom:0 !important;
+    line-height: inherit !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    z-index:1 !important;
   }
   .NginSelect input.NS-preview {
-    z-index:3;
+    z-index:3 !important;
     color:rgba(0,0,0,.4) !important;
     border-color:transparent !important;
     background:none !important;
@@ -31,7 +31,6 @@
     right:99999px;
     bottom:0;
   }
-  .NginSelect .NS-copy span { color:red; }
   .NginSelect .NS-handle {
     display: block;
     text-align:center;
