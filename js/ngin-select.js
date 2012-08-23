@@ -27,10 +27,13 @@
     matchesFor: function(e, s){
       var m,
           matches = [],
+          exactMatch = false,
           re = new RegExp('.*('+s+').*','i'),
           list = NS.getList(e)
+
+      for (var i in list) { if (list[i].name.toLowerCase() == s.toLowerCase()) { exactMatch = true; break } }
       // return full list
-      if (s === e.data.$inputs.filter('.NS-preview').val()) {
+      if (!s || exactMatch) {
         matches = $.map(list, function(item, i){
           if (item.name === s) e.data.index = i
           return { v: item.name, s: item.name, i: 0 }
